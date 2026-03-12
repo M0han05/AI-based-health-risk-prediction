@@ -323,10 +323,9 @@ export default function HospitalNetwork({ onClose }: { onClose: () => void }) {
     return (
         <div className="animate-fadeIn">
             <div className="relative w-full h-64 md:h-80 rounded-3xl overflow-hidden mb-8 group">
-                <img
-                    src="/hospital_network_map.png"
+               <img
+                    src="./hospital_network_map.png"
                     alt="Hospital Network Map"
-                    className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-gray-950 via-gray-950/40 to-transparent" />
                 <div className="absolute bottom-6 left-8">
